@@ -1,0 +1,33 @@
+body {
+  background: url(../images/eight_horns.png);
+}
+
+.container {
+  background-image: url(../images/AdobeStock_139157411.jpeg);
+}
+
+
+h1 {
+  font-family: 'Mountains of Christmas',cursive;
+  font-size: 100px;
+  font-weight: bold;
+  color: turquoise;
+  text-align: center;
+  line-height: 175px;
+  border: 2px dashed turquoise;
+  margin: 20px;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  color: turquoise;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: turquoise;
+  text-align: left;
+}
