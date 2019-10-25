@@ -1,7 +1,7 @@
 //GLOBAL VARIABLES
 //==============================================================================================================================================
 //Arrays and Variables for holding data 
-var wordOptions = ['phoenix', 'tucson', 'flagstaff','sedona', 'mesa', 'gilbert', 'cardinals', 'suns', 'diamondbacks', 'coyotes', 'sun devils', 'wildcats', 'lumberjacks', 'desert']
+var wordOptions = ['phoenix', 'tucson', 'flagstaff','sedona', 'mesa', 'gilbert', 'cardinals', 'suns', 'diamondbacks', 'coyotes', 'sundevils', 'grandcanyon', 'wildcats', 'lumberjacks', 'desert', 'cactus']
 var selectedWord = '';
 var lettersinWord = '';
 var numBlanks = 0;

@@ -12,42 +12,60 @@
 </head>
 <body> 
   <div class='container'> <!--start of container-->
-    <div class='jumbotron'>
-      <h1>Arizona Hangman Game</h1>
-      <p>Press any key to get started!</p>
-    </div>
-
-    <div class='panel panel-default'>
-      <div class='panel-heading'>
-        <h3 class='panel-title'>Word to Guess</h3>
-      </div>
-      <div class='panel-body'>
-        <h2 id='wordToGuess'>_ _ _ _ _</h2>
+    <div class='row'>
+      <div class='col-12'>
+        <h1>Arizona Hangman Game</h1>
       </div>
     </div>
 
-    <div class='panel panel-default'>
-      <div class='panel-body'>
-        Wrong Guesses: <span id='wrongGuesses'></span>
+    <br>
+
+    <div class='row'>
+      <div class='col-12'>
+        <h2>Press any key to get started!</h2>
       </div>
     </div>
+
+    <br>
+
+    <div class='row'>
+      <div class='col-6'>
+
+      </div>
+      
+      <div class='col-6'>
+        <div class='row'>
+          <div class='col-12'>
+            <h2 class='panel-title'>Word to Guess</h2>
+            <h2 id='wordToGuess'>_ _ _ _ _</h2>
+          </div>
+        </div>
+
+        <div class='row'>
+          <div class='col-12'>
+            <h2>Wrong Guesses: <span id='wrongGuesses'></span></h2>
+          </div>
+        </div>
+
+        <div class='row'>
+          <div class='col-12'>
+            <h2>Guesses Left: <span id='numGuesses'></span></h2>
+          </div>
+        </div>
+
+        <div class='row'>
+          <div class='col-12'>
+            <h2>Win Counter: <span id='winCounter'></span></h2>
+          </div>
+        </div>
+        
+        <div class='row'>
+          <div class='col-12'>
+            <h2>Loss Counter: <span id= 'lossCounter'></span></h2>
+          </div>
+        </div>
+      </div>
     
-    <div class='panel panel-default'>
-      <div class='panel-body'>
-        Guesses Left: <span id='numGuesses'></span>
-      </div>
-    </div>
-
-    <div class='panel panel-default'>
-      <div class='panel-body'>
-        Win Counter: <span id='winCounter'></span>
-      </div>
-    </div>
-
-    <div class='panel panel-default'>
-      <div class='panel-body'>
-        Loss Counter: <span id= 'lossCounter'></span>
-      </div>
     </div>
 
   </div> <!--end of container-->

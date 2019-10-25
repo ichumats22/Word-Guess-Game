@@ -1,9 +1,5 @@
 body {
-  background: url(../images/eight_horns.png);
-}
-
-.container {
-  background-image: url(../images/AdobeStock_139157411.jpeg);
+  background: turquoise;
 }
 
 
@@ -30,4 +26,8 @@ h3 {
   font-size: 20px;
   color: turquoise;
   text-align: left;
+}
+
+.panel-title {
+  text-align: center;
 }
