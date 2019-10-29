@@ -1,33 +1,54 @@
-body {
-  background: turquoise;
+* {
+  box-sizing: border-box;
 }
 
+body {
+  background-image: url('../images/AdobeStock_139157411.jpeg');
+  background-size: cover;
+}
+
+img {
+  width: auto; 
+  height: 500px;
+}
 
 h1 {
   font-family: 'Mountains of Christmas',cursive;
   font-size: 100px;
   font-weight: bold;
-  color: turquoise;
+  color: white;
   text-align: center;
   line-height: 175px;
-  border: 2px dashed turquoise;
+  border: 2px dashed white;
   margin: 20px;
 }
 
 h2 {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 40px;
-  color: turquoise;
+  font-family: 'Mountains of Christmas', cursive;
+  font-size: 80px;
+  color: white;
   text-align: center;
+  text-anchor: middle;
 }
-
+ 
 h3 {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
-  color: turquoise;
-  text-align: left;
+  font-family: 'Mountains of Christmas', cursive;
+  font-size: 60px;
+  color: white;
+  text-align: center;
 }
 
-.panel-title {
+h4 {
+  font-family: 'Mountains of Christmas', cursive;
+  font-size: 40px;
+  color: white;
   text-align: center;
+}
+
+#subheader {
+  margin: 50px 0 50px 0;
+}
+
+#header {
+  margin-top: 50px;
 }
